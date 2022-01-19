@@ -1351,7 +1351,7 @@ void TCPTransportInterface::SocketConnected(
             }
             else
             {
-                channel->disable();
+                channel->disconnect();
             }
         }
     }
