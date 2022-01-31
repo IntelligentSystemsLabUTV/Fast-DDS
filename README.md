@@ -1,26 +1,6 @@
-# eProsima Fast DDS
+# IntelligentSystemsLabUTV/Fast-DDS
 
-<a href="https://twitter.com/intent/tweet?text=I+recommend+@EProsima+%23FastRTPS,+the+ most+complete+open+source+dds+middleware!&url=https%3A%2F%2Fgithub.com%2FeProsima%2FFast-RTPS&hashtags=github&original_referer=http%3A%2F%2Fgithub.com%2F&tw_p=tweetbutton" target="_blank">
-  <img align="right"; hspace="20" src="https://www.eprosima.com/images/icons/eProsima_tweet.png"
-       alt="tweet button" title="Recommend Fast RTPS on Twitter"></img>
-</a>
-
-[![FIWARE Robotics](https://nexus.lab.fiware.org/static/badges/chapters/robotics.svg)](https://www.fiware.org/developers/catalogue/)
-[![License](https://img.shields.io/github/license/eProsima/Fast-RTPS.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Releases](https://img.shields.io/github/v/release/eProsima/Fast-RTPS?sort=semver)](https://github.com/eProsima/Fast-RTPS/releases)
-[![Issues](https://img.shields.io/github/issues/eProsima/Fast-RTPS.svg)](https://github.com/eProsima/Fast-RTPS/issues)
-[![Forks](https://img.shields.io/github/forks/eProsima/Fast-RTPS.svg)](https://github.com/eProsima/Fast-RTPS/network/members)
-[![Stars](https://img.shields.io/github/stars/eProsima/Fast-RTPS.svg)](https://github.com/eProsima/Fast-RTPS/stargazers)
-<br/>
-[![Documentation badge](https://img.shields.io/readthedocs/eprosima-fast-rtps.svg)](https://eprosima-fast-rtps.readthedocs.io)
-![Status](https://nexus.lab.fiware.org/static/badges/statuses/incubating.svg)
-[![Linux ci](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_linux/badge/icon?subject=%20%20%20Linux%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_linux)
-[![Linux arm64 ci](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_linux_aarch64/badge/icon?subject=%20%20%20Linux-aarch64%20CI%20)](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastdds_sec_master_linux_aarch64/)
-[![Windows ci](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_windows/label=windows-secure,platform=x64,toolset=v141/badge/icon?subject=%20%20%20%20Windows%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_windows/label=windows-secure,platform=x64,toolset=v141)
-[![Mac ci](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_mac/badge/icon?subject=%20%20%20%20%20%20%20Mac%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_mac)
-[![Coverage](https://img.shields.io/jenkins/coverage/cobertura.svg?jobUrl=http%3A%2F%2Fjenkins.eprosima.com%3A8080%2Fjob%2Fnightly_fastdds_coverage_linux)](http://jenkins.eprosima.com:8080/job/nightly_fastdds_coverage_linux)
-
-<a href="http://www.eprosima.com"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSd0PDlVz1U_7MgdTe0FRIWD0Jc9_YH-gGi0ZpLkr-qgCI6ZEoJZ5GBqQ" align="left" hspace="8" vspace="2" width="100" height="100" ></a>
+**This is a fork of eProsima/Fast-DDS, for internal use only.**
 
 *eprosima Fast DDS* (formerly Fast RTPS) is a C++ implementation of the DDS (Data Distribution Service) standard of the OMG (Object Management Group). eProsima Fast DDS implements the RTPS (Real Time Publish Subscribe) protocol, which provides publisher-subscriber communications over unreliable transports such as UDP,
 as defined and maintained by the Object Management Group (OMG) consortium. RTPS is also the wire interoperability protocol defined for the Data Distribution
@@ -40,7 +20,8 @@ system input/output channel combination for each deployment.
 
 *eProsima Fast DDS* has been adopted by multiple organizations in many sectors including these important cases:
 
-* Robotics: ROS (Robotic Operating System) as their default middleware for ROS2.
+* Robotics: ROS (Robotic Operating System) as their default middleware for ROS2 until and including the 
+  latest long term release Foxy Fitzroy.
 * EU R&D: FIWARE Incubated GE.
 
 This project is part of [FIWARE](https://www.fiware.org/). For more information check the FIWARE Catalogue entry for
@@ -55,7 +36,7 @@ We are curious to get to know your use case!
 
 * Linux [![Linux ci](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_linux/badge/icon?subject=%20%20%20Linux%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_linux)
 * Linux-aarch64 [![Linux arm64 ci](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_linux_aarch64/badge/icon?subject=%20%20%20Linux-aarch64%20CI%20)](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastdds_sec_master_linux_aarch64/)
-* Windows [![Windows ci](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_windows/label=windows-secure,platform=x64,toolset=v141/badge/icon?subject=%20%20%20%20Windows%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_windows/label=windows-secure,platform=x64,toolset=v141)
+* Windows [![Windows ci](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_windows/label=windows-secure,platform=x64,toolset=v142/badge/icon?subject=%20%20%20%20Windows%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_windows/label=windows-secure,platform=x64,toolset=v142)
 * Mac [![Mac ci](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_mac/badge/icon?subject=%20%20%20%20%20%20%20Mac%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastdds_sec_master_mac)
 
 ## Installation Guide
@@ -91,6 +72,22 @@ choco install -y -s <PATH\TO\DOWNLOADS\> asio tinyxml2
 ```
 
 Please replace `<PATH\TO\DOWNLOADS>` with the folder you downloaded the packages to.
+
+##### Libp11 library
+
+Libp11 provides PKCS#11 support for openSSL. This is an optional dependency,
+that is needed only when *eprosima Fast DDS* is used with security and PKCS#11 URLs.
+
+On Linux, you can install libp11 using the package manager of your Linux distribution.
+For example, on Ubuntu you can install them by using its package manager with the next command.
+
+```bash
+sudo apt install libp11-dev libengine-pkcs11-openssl
+```
+
+On Windows, you can download and compile the library from this
+[ROS2 Github repository](https://github.com/OpenSC/libp11).
+Follow the instructions on the repository to compile it on your platform.
 
 #### Colcon installation
 
@@ -170,61 +167,109 @@ See the [Quality Declaration](https://github.com/eProsima/Fast-DDS/blob/master/Q
 
 ## Quick Demo
 
-For those who want to try a quick demonstration of *Fast DDS* libraries on Ubuntu, here is a way to launch an example
-application.
+eProsima provides the eProsima Fast DDS Suite Docker image for those who want a quick demonstration of Fast-DDS running on an Ubuntu platform. It can be downloaded from [eProsima's downloads page](https://eprosima.com/index.php/downloads-all).
 
-First, download and install **docker** application.
-Open a terminal and type the following command:
+This Docker image was built for Ubuntu 20.04 (Focal Fossa).
+
+To run this container you need **Docker installed**. From a terminal run the following command
 
 	$ sudo apt-get install docker.io
 
-Then, download the docker image files from the
-[eProsima downloads website](https://eprosima.com/index.php/downloads-all).
+Load the docker image:
 
-Load the docker images:
+	$ docker load -i ubuntu-fastdds-suite:<FastDDS-Version>.tar
+	$ docker tag ubuntu-fastdds-suite:<FastDDS-Version> ubuntu-fastdds-suite:latest
 
-	$ docker load -i ubuntu-fast-dds:<FastDDS-Version>.tar
-	$ docker load -i ubuntu-fast-dds-helloworld:<FastDDS-Version>.tar
-	$ docker load -i ubuntu-fast-dds-shapesdemo:<ShapesDemo-Version>.tar
-
-Run the Docker container with the *eProsima Shapes Demo* application. Please refer to
-[Shapes Demo documentation](https://eprosima-shapes-demo.readthedocs.io)
-for further details on how to use this application.
+Run the eProsima Fast DDS Suite Docker container:
 
     $ xhost local:root
     $ docker run -it --privileged -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
-        ubuntu-fast-dds-shapesdemo:<ShapesDemo-Version>
+    ubuntu-fastdds-suite:<FastDDS-Version>
 
-It is also possible to run the *Fast DDS* HelloWorld example by executing the following command:
+This Docker Image comes bundled with the following:
 
-    $ docker run -it ubuntu-fast-dds-helloworld:<FastDDS-Version>
+### Shapes Demo
 
-Run as many images as wanted and check the communication between them.
+eProsima Shapes Demo is an application in which Publishers and Subscribers are shapes of different
+colors and sizes moving on a board. Each shape refers to its own topic: Square, Triangle or Circle.
+A single instance of the eProsima Shapes Demo can publish on or subscribe to several topics at a
+time.
 
-## Getting Help
+You can read more about this application on the
+[Shapes Demo documentation page](https://eprosima-shapes-demo.readthedocs.io/).
 
-If you need support you can reach us by mail at `support@eProsima.com` or by phone at `+34 91 804 34 48`.
+To run this application once inside the Docker container run:
+
+    $ ShapesDemo
+
+eProsima Shapes Demo usage information can be found on the
+[Shapes Demo First Steps page](https://eprosima-shapes-demo.readthedocs.io/en/latest/first_steps/first_steps.html).
+
+### Fast DDS Monitor
+
+eProsima Fast DDS Monitor is a graphical desktop application aimed at monitoring DDS environments
+deployed using the *eProsima Fast DDS* library. Thus, the user can monitor in real time the status
+of publication/subscription communications between DDS entities. They can also choose from a wide
+variety of communication parameters to be measured (latency, throughput,packet loss, etc.), as well
+as record and compute in real time statistical measurements on these parameters (mean, variance,
+standard deviation, etc.).
+
+You can read more about this application on the
+[Fast DDS Monitor documentation page](https://fast-dds-monitor.readthedocs.io/).
+
+To run this application once inside the Docker container run:
+
+    $ fastdds_monitor
+
+eProsima Fast DDS Monitor usage information can be found on the
+[Fast DDS Monitor User Manual](
+https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/initialize_monitoring.html).
 
 
+### Fast DDS libraries and Examples
 
+Included in this Docker container is a set of binary examples that showcase several functionalities of the
+Fast DDS libraries. These examples' path can be accessed from a terminal by typing
 
----
+    $ goToExamples
 
-<!--
-    ROSIN acknowledgement from the ROSIN press kit
-    @ https://github.com/rosin-project/press_kit
--->
+From this folder you can access all examples, both for DDS and RTPS. We detail the steps to launch two such
+examples below.
 
-<a href="http://rosin-project.eu">
-  <img src="http://rosin-project.eu/wp-content/uploads/rosin_ack_logo_wide.png"
-       alt="rosin_logo" height="60" >
-</a>
+To launch the Hello World example (a minimal example that will perform a Publisher/Subscriber match and start
+sending samples) you could run:
 
-Supported by ROSIN - ROS-Industrial Quality-Assured Robot Software Components.
-More information: <a href="http://rosin-project.eu">rosin-project.eu</a>
+    $ goToExamples
+    $ cd HelloWorldExample/bin
+    $ tmux new-session "./HelloWorldExample publisher 0 1000" \; \
+    split-window "./HelloWorldExample subscriber" \; \
+    select-layout even-vertical
 
-<img src="http://rosin-project.eu/wp-content/uploads/rosin_eu_flag.jpg"
-     alt="eu_flag" height="45" align="left" >
+This example is not constrained to the current instance. It's possible to run several instances of this
+container to check the communication between them by running the following from each container.
 
-This project has received funding from the European Union’s Horizon 2020
-research and innovation programme under grant agreement no. 732287.
+    $ goToExamples
+    $ cd HelloWorldExample/bin
+    $ ./HelloWorldExample publisher
+
+or
+
+    $ goToExamples
+    $ cd HelloWorldExample/bin
+    $ ./HelloWorldExample subscriber
+
+Another example you could launch is the Benchmark example. This example creates either a Publisher or a Subscriber and
+on a successful match starts sending samples. After a few seconds the process that launched the Publisher will show
+a report with the number of samples transmitted.
+
+On the subscriber side, run:
+
+    $ goToExamples
+    $ cd Benchmark/bin
+    $ ./Benchmark subscriber udp
+
+On the publisher side, run:
+
+    $ goToExamples
+    $ cd Benchmark/bin
+    $ ./Benchmark publisher udp
